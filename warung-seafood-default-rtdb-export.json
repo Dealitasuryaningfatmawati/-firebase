@@ -1,0 +1,132 @@
+{
+  "menu": {
+    "m1": {
+      "gambar": "🦀",
+      "harga": 65000,
+      "id": "m1",
+      "kategori": "Kepiting & Udang",
+      "nama": "Kepiting Saus Padang",
+      "status": "Tersedia"
+    },
+    "m2": {
+      "gambar": "🦐",
+      "harga": 55000,
+      "id": "m2",
+      "kategori": "Kepiting & Udang",
+      "nama": "Udang Bakar Madu",
+      "status": "Tersedia"
+    },
+    "m3": {
+      "gambar": "🐟",
+      "harga": 75000,
+      "id": "m3",
+      "kategori": "Ikan",
+      "nama": "Ikan Kakap Bakar Kecap",
+      "status": "Tersedia"
+    },
+    "m4": {
+      "gambar": "🦪",
+      "harga": 35000,
+      "id": "m4",
+      "kategori": "Kerang",
+      "nama": "Kerang Hijau Saus Tiram",
+      "status": "Tersedia"
+    },
+    "m5": {
+      "gambar": "🥥",
+      "harga": 15000,
+      "id": "m5",
+      "kategori": "Minuman",
+      "nama": "Es Kelapa Muda",
+      "status": "Tersedia"
+    },
+    "m6": {
+      "gambar": "🍵",
+      "harga": 5000,
+      "id": "m6",
+      "kategori": "Minuman",
+      "nama": "Es Teh Manis",
+      "status": "Tersedia"
+    },
+    "m7": {
+      "gambar": "🍱",
+      "harga": 220000,
+      "id": "m7",
+      "kategori": "Paket",
+      "nama": "Paket Keluarga Bahari",
+      "status": "Tersedia"
+    }
+  },
+  "persediaan": {
+    "inv1": {
+      "harga_beli": 45000,
+      "id": "inv1",
+      "kategori": "Kepiting",
+      "nama": "Kepiting Segar",
+      "satuan": "Kg",
+      "stok": 8,
+      "stok_minimum": 5
+    },
+    "inv2": {
+      "harga_beli": 40000,
+      "id": "inv2",
+      "kategori": "Udang",
+      "nama": "Udang Peci",
+      "satuan": "Kg",
+      "stok": 3,
+      "stok_minimum": 4
+    },
+    "inv3": {
+      "harga_beli": 50000,
+      "id": "inv3",
+      "kategori": "Ikan",
+      "nama": "Ikan Kakap Merah",
+      "satuan": "Kg",
+      "stok": 12,
+      "stok_minimum": 5
+    },
+    "inv4": {
+      "harga_beli": 18000,
+      "id": "inv4",
+      "kategori": "Kerang",
+      "nama": "Kerang Hijau",
+      "satuan": "Kg",
+      "stok": 15,
+      "stok_minimum": 10
+    },
+    "inv5": {
+      "harga_beli": 25000,
+      "id": "inv5",
+      "kategori": "Bumbu",
+      "nama": "Bumbu Saus Padang",
+      "satuan": "Pack",
+      "stok": 2,
+      "stok_minimum": 5
+    }
+  },
+  "transaksi": {
+    "TRX-20261027-001": {
+      "id_transaksi": "TRX-20261027-001",
+      "item": [
+        {
+          "harga_satuan": 55000,
+          "id_menu": "m2",
+          "jumlah": 2,
+          "nama_menu": "Udang Bakar Madu",
+          "subtotal": 110000
+        },
+        {
+          "harga_satuan": 5000,
+          "id_menu": "m6",
+          "jumlah": 2,
+          "nama_menu": "Es Teh Manis",
+          "subtotal": 10000
+        }
+      ],
+      "metode_pembayaran": "Tunai",
+      "status": "Selesai",
+      "tanggal": "2026-10-27T12:30:00+07:00",
+      "total": 120000
+    }
+  }
+}
